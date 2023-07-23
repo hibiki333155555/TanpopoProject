@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+
 import { Typewriter } from '../components/Typewriter';
 
 export function Moji() {

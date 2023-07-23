@@ -1,9 +1,6 @@
 // Sidebar.js
-import React from 'react';
 import './Sidebar.css'; // 別途スタイルファイルを作成
-import { Routes, Route } from 'react-router-dom'
-import { Home } from '../pages/Home' 
-import { Button, Container, Nav, Navbar as NavbarBs } from 'react-bootstrap' 
+import { Container, Nav, Navbar as NavbarBs } from 'react-bootstrap' 
 import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
