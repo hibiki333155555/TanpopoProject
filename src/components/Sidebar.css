@@ -1,0 +1,42 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    background-color: #e1e3c2;
+    background: linear-gradient(to right, rgb(253, 251, 187),70%,  rgb(57, 46, 48));
+    color: #5a3d84;
+    padding: 20px;
+    opacity: 0.5;
+    z-index: 9998;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar.open {
+    left: 0; /* サイドバーを表示するために左側に戻す */
+  }
+
+  .sidebar .footer-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}

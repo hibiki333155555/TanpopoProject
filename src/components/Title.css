@@ -1,0 +1,27 @@
+/*  src/Title.css  */
+.Title {
+    position: auto;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(101, 75, 142);
+    background: linear-gradient(rgb(142, 107, 246), 35%, pink);
+    color: #fff;
+    z-index: 9999;
+    opacity: 1;
+  }
+
+.Title :hover {
+  color: #000000;
+  transition: 800ms ease-in;
+}
+
+  .Title-Subtitle {
+    color: rgba(255, 255, 255, 0.75);
+  }
