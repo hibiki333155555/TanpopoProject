@@ -11,12 +11,15 @@ const Sidebar = () => {
     <NavbarBs className="sidebar">
             <Container>
                 <Nav className='footer-text'>
+                  <h1>-</h1>
                   <Nav.Link to="/" as={NavLink}>
                     <h1>Home</h1>
                   </Nav.Link>
+                  <h1>-</h1>
                   <Nav.Link to="/about" as={NavLink}>
                     <h1>About</h1>
                   </Nav.Link>
+                  <h1>-</h1>
                   <Nav.Link to="/moji" as={NavLink}>
                     <h1>Moji</h1>
                   </Nav.Link>
