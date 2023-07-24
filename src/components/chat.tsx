@@ -1,5 +1,5 @@
 
-const  API_KEY  = 'aa'
+const  API_KEY  = process.env.REACT_APP_POSIPAN_API_KEY
  
 export const chat = async ( message: string ) => {
   try {
