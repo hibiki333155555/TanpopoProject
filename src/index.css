@@ -6,7 +6,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(39, 34, 34, 0.87);
+  color: rgba(252, 164, 164, 0.87);
   background-color: #2e2e2f;
 
   font-synthesis: none;
@@ -22,6 +22,7 @@ a {
   color: #a54bff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #ff6422;
   transition: 200ms ease-in;

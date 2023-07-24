@@ -29,39 +29,27 @@
     object-fit: cover;
   }
 
-  /* 星空の背景のスタイル */
-.stars {
-  position: auto;
-  width: 100%; /* 星空の横幅 */
-  height: 100vh; /* 星空の縦幅 */
-  overflow: hidden; /* 星が枠外にはみ出すのを防ぐ */
+
+/* styles.css（または適切なCSSファイル） */
+.input-wrapper {
+  margin-bottom: 20px; /* input要素とラベルの間のスペースを追加 */
 }
 
-/* 星のスタイル */
-.star {
-  position: absolute;
-  display: block;
-  background-color: #fff; /* 星の色 */
-  border-radius: 50%;
-  box-shadow: 0 0 4px 2px rgba(#fff, 0.2); /* 星の影 */
-  opacity: 0;
-  animation: twinkle 5s infinite;
+.input-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-/* 星がキラキラ光るアニメーション */
-@keyframes twinkle {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    transform: scale(1.1);
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-    transform: scale(1);
-  }
+.input-element {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
 }
 
+.input-element:focus {
+  outline: none;
+  border-color: #007bff;
+}

@@ -13,8 +13,8 @@ const Sidebar = () => {
                     <h1>Home</h1>
                   </Nav.Link>
                   <h1>-</h1>
-                  <Nav.Link to="/about" as={NavLink}>
-                    <h1>About</h1>
+                  <Nav.Link to="/chat" as={NavLink}>
+                    <h1>Chat</h1>
                   </Nav.Link>
                   <h1>-</h1>
                   <Nav.Link to="/moji" as={NavLink}>

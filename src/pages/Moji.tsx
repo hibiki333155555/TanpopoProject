@@ -2,7 +2,7 @@
 import { Typewriter } from '../components/Typewriter';
 
 export function Moji() {
-    const text = 'T0ANPOPO PROJECT is kind of aaaaaaaaaaaabbbbbbbbbbbbbTANPOPO PROJECT is kind of aaaaaaaaaaaabbbbbbbbbbbbbTANPOPO PROJECT is kind of aaaaaaaaaaaabbbbbbbbbbbbb';
+    const text = '';
     return(
         <div>
             <h1>

@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import { Route, Routes } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import { Home } from './pages/Home'
-import { About } from './pages/About';
+import { Chat } from './pages/Chat';
 import { Moji } from './pages/Moji';
 import './components/FullScrean.css';
 
@@ -23,7 +23,7 @@ function App() {
       <Container>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/chat" element={<Chat />} />
           <Route path="/moji" element={<Moji />} />
         </Routes>
       </Container>
